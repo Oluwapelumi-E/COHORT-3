@@ -1,0 +1,72 @@
+body{
+  background-color: #000000;
+  font-family: sans-serif;
+  color:#fff;
+}
+header{
+  text-align: center;
+  padding: 2em;
+}
+h1{
+  text-align: center;
+}
+
+.card{
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  margin-left: 90px;
+}
+button{
+  color: #000;
+  border:none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-weight: bold;
+
+}
+
+.outter-card{
+  display: flex;
+  width:90%;
+}
+.carousel{
+  width:100px;
+  overflow-x: auto;
+  margin: 3em auto;
+  display: flex;
+  gap:1em;
+  scroll-behavior : smooth;
+}
+
+ .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  .carousel::-webkit-scrollbar-button(right){
+    content: '->';
+    border: none;
+    background-color: var(--brand-color);
+    font-family: consolas;
+    font: 3rem;
+    color: #fff;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding-bottom: 1em;
+    cursor: pointer;
+
+  }
+  .carousel::-webkit-scrollbar-button(right){
+
+  }
+  .tech{
+    flex: o o 20em;
+    height: 12em;
+    background-color: var(--primary-color);
+    padding: 1em;
+    border-radius: 5em;
+    text-align: center;
+    align-content: center;
+  }
